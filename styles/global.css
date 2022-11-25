@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fonts/Poppins/stylesheet.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
+
+#__next{
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+h1, h2, h3,h4, h5, h6{
+  color: #0F172A;
+}
+
+p, span, label{
+  color: #0F172A;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 85%;
+  }
+}
